@@ -30,7 +30,7 @@ export async function POST(request: Request) {
           // await sendWhatsAppText(supporterPhone, "Thank you! Your profile status has been updated to Volunteer.");
         } 
         else if (incomingText === 'manifesto') {
-          // await sendWhatsAppText(supporterPhone, "Read our platform matrix online at: https://danielalao.org#manifestos");
+          // await sendWhatsAppText(supporterPhone, "Read our platform matrix online at: https://candidate.org#manifestos");
         }
       }
     }

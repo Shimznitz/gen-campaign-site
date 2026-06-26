@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Daniel Alao | Campaign Headquarters',
+  title: 'Candidate Name | Campaign Headquarters',
   description: 'Building a premium, scalable blueprint for collective representation and technological growth.',
 };
 

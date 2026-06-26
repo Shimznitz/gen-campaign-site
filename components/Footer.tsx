@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.brandColumn}>
-          <div className={styles.logo}>ALAO '27</div>
+          <div className={styles.logo}>CANDIDATE '27</div>
           <p className={styles.slogan}>{cmsData.slogan}</p>
         </div>
         
