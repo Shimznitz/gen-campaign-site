@@ -1,0 +1,49 @@
+.wrapper {
+  background: #111111;
+  color: var(--white);
+  padding: 80px 48px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.accentLabel {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 32px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.block h3 {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
+.block span {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+  margin-top: 8px;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .grid { gap: 24px; }
+  .block h3 { font-size: 40px; }
+}

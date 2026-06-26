@@ -1,0 +1,78 @@
+.footer {
+  background: var(--white);
+  padding: 80px 48px 40px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 64px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -0.5px;
+  margin-bottom: 16px;
+}
+
+.slogan {
+  font-size: 15px;
+  color: #666;
+  max-width: 320px;
+  line-height: 1.5;
+}
+
+.footer h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  color: #111;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer ul a {
+  font-size: 14px;
+  color: #666;
+  transition: color 0.2s;
+}
+
+.footer ul a:hover {
+  color: var(--primary);
+}
+
+.contactColumn p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.metaInfo {
+  margin-top: 8px;
+}
+
+.bottomBar {
+  max-width: 1200px;
+  margin: 48px auto 0;
+  padding-top: 24px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  font-size: 12px;
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
