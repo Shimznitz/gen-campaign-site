@@ -16,7 +16,7 @@ export default function Navbar({ onOpenJoin }: { onOpenJoin: () => void }) {
   return (
     <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.container}>
-        <div className={styles.logo}>ALAO '27</div>
+        <div className={styles.logo}>CANDIDATE '27</div>
         
         <ul className={styles.navLinks}>
           <li><a href="#home">Home</a></li>

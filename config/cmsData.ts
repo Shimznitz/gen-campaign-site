@@ -1,7 +1,7 @@
 import { CandidateConfig } from '../types';
 
 export const cmsData: CandidateConfig = {
-  name: "Hon. Daniel Alao",
+  name: "Hon. Candidate",
   position: "Federal House of Representatives",
   slogan: "A New Dawn for Collective Progress.",
   quote: "Leadership is service. Together, we build a smarter, inclusive, and self-sustaining future.",

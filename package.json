@@ -1,4 +1,12 @@
 {
+  "name": "gen-campaign-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.108.2",
     "framer-motion": "^12.42.0",
@@ -8,6 +16,7 @@
   },
   "devDependencies": {
     "@types/node": "^26.0.1",
-    "@types/react": "^19.2.17"
+    "@types/react": "^19.2.17",
+    "typescript": "^6.0.3"
   }
 }
